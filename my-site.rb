@@ -2,19 +2,19 @@ require "sinatra"
 
 class MySite < Sinatra::Base
 
-  get "/index.html" do
+  get "/index.erb" do
     erb :index
   end
 
-  get "/blog.html" do
+  get "/blog.erb" do
     erb :blog
   end
 
-  get "/projects.html" do
+  get "/projects.erb" do
     erb :projects
   end
 
-  get "/about.html" do
+  get "/about.erb" do
     erb :about
   end
 end
