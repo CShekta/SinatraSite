@@ -3,19 +3,64 @@
  * Inside of CSS files comments are started with /* and ended with:
  */
 
-/*
- * Starting with Wave 2 of this project we will be using CSS to style our
- * web pages. You should place all of your styles in this file and then
- * reference it from each of your HTML files.
- */
+body {
+  /*background-color;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  padding: 10px;
 
-/*
- * This file is located at "public/main.css" in your project directory.
- * Because it is in the "public" directory, Sinatra knows to make the file
- * accessible to your HTML files when you use the src="path/to/file"
- * attribute on the appropriate tags.
- *
- * For example, to include an image into your site, place the file in the
- * public directory and use <img src="/name_of_image.png"> in your HTML
- * file. The "public" part of the path should *not* be included.
- */
+}
+
+section {
+  margin: auto;
+  padding: 100px;
+  align-self: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
