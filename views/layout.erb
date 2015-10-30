@@ -4,6 +4,7 @@
     <title>Claire Shekta | Extraordinaire</title>
     <link href="./css/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/jpg" href="fluffy_guineapig.jpg" />
   </head>
 
   <body>
@@ -23,7 +24,9 @@
     <footer>
         <a href="http://facebook.com/ClaireShekta"><img src="facebook.jpg" alt="Facebook Logo" class="social-icon"></a>
         <a href="https://github.com/CShekta"><img src="github.jpg" alt="Github Logo" class="social-icon"></a>
-        <p>&copy; 2014 Claire Schechter.</p>
+        <p>
+          &copy; <%= Date.today.strftime("%Y") %> Claire Schechter.
+        </p>
     </footer>
   </body>
 </html>
