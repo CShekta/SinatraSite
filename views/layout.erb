@@ -22,11 +22,15 @@
     </header>
       <%= yield %>
     <footer>
-        <a href="http://facebook.com/ClaireShekta"><img src="facebook.jpg" alt="Facebook Logo" class="social-icon"></a>
-        <a href="https://github.com/CShekta"><img src="github.jpg" alt="Github Logo" class="social-icon"></a>
-        <p>
-          &copy; <%= Date.today.strftime("%Y") %> Claire Schechter.
-        </p>
+      <% @quotes = ["When I die, I want to go peacefully like my grandfather did–in his sleep. Not yelling and screaming like the passengers in his car. -Bob Monkhouse", "I have six locks on my door all in a row. When I go out, I lock every other one. I figure no matter how long somebody stands there picking the locks, they are always locking three. - Elayne Boosler", "Drawing on my fine command of the language, I said nothing. -Robert Benchley"] %>
+      <p>
+        <%= @quotes.sample %>
+      </p>
+      <a href="http://facebook.com/ClaireShekta"><img src="facebook.jpg" alt="Facebook Logo" class="social-icon"></a>
+      <a href="https://github.com/CShekta"><img src="github.jpg" alt="Github Logo" class="social-icon"></a>
+      <p>
+        &copy; <%= Date.today.strftime("%Y") %> Claire Schechter.
+      </p>
     </footer>
   </body>
 </html>
