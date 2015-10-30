@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Claire Shekta | Extraordinaire</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <header>
+      <h1>Claire's Magnificent Site</h1>
+      <h2>(of badassery)</h4>
+      <nav>
+        <ul>
+          <li><a href="./index.erb">Home</a></li>
+          <li><a href="./blog.erb">Blog</a></li>
+          <li><a href="./projects.erb">Projects</a></li>
+          <li><a href="./about.erb">About</a></li>
+        </ul>
+      </nav>
+    </header>
+      <%= yield %>
+    <footer>
+        <a href="http://facebook.com/ClaireShekta"><img src="facebook.jpg" alt="Facebook Logo" class="social-icon"></a>
+        <a href="https://github.com/CShekta"><img src="github.jpg" alt="Github Logo" class="social-icon"></a>
+        <p>&copy; 2014 Claire Schechter.</p>
+    </footer>
+  </body>
+</html>
