@@ -20,6 +20,7 @@ class MySite < Sinatra::Base
   end
 
   get "/about.erb" do
+    @funny_words = ["gobblydegook", "wibble", "nincompoop", "oy"]
     erb :about
   end
 end
